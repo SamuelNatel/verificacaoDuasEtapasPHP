@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
     $user = "root";
-    $password = "20122003";
-    $dbname = "duasVerificacoes";
+    $password = "****";
+    $dbname = "****";
 
     try {
         $conn = new PDO("mysql:host=$host; dbname=".$dbname, $user, $password);
